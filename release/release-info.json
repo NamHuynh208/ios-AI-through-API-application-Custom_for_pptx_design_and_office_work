@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0",
+  "target": "https://agenty.namprojects.site",
+  "fileCount": 20,
+  "zipBytes": 1554400,
+  "sha256": "3618a82a9d38d73267e81c91346ea62d7cc7ce5a6d157d98f71f38eaaf4afe75",
+  "containsAPIKey": false,
+  "deployed": true,
+  "verifiedAt": "2026-10-30",
+  "deploymentTarget": "https://agenty.namprojects.site",
+  "checks": ["Cloudflare Pages custom domain Active", "SSL enabled", "HTTPS 200", "PWA manifest 200", "service worker 200", "security headers present"]
+}

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.env
+.env.*
+*.key
+*.pem
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/questions/
+.impeccable/direction-options.json
+.wrangler/
+release/*.zip

@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "Agenty Mobile",
+  "short_name": "Agenty",
+  "lang": "vi",
+  "description": "Trợ lý AI và chỉnh sửa file văn phòng trên iPhone bằng API riêng.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6fa",
+  "theme_color": "#172b48",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

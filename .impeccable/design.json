@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-30T00:00:00Z",
+  "title": "Design System: Agenty Mobile",
+  "extensions": {
+    "colorMeta": {
+      "navy": { "role": "neutral", "displayName": "Header Navy", "canonical": "#172b48", "tonalRamp": ["oklch(15% .018 258)", "oklch(26% .035 258)", "oklch(38% .055 258)", "oklch(49% .07 258)", "oklch(61% .07 258)", "oklch(72% .055 258)", "oklch(84% .035 258)", "oklch(95% .01 258)"] },
+      "bg": { "role": "neutral", "displayName": "Cool Canvas", "canonical": "#f4f6fa", "tonalRamp": ["oklch(15% .005 260)", "oklch(26% .009 260)", "oklch(38% .012 260)", "oklch(49% .015 260)", "oklch(61% .015 260)", "oklch(72% .012 260)", "oklch(84% .009 260)", "oklch(95% .005 260)"] },
+      "surface": { "role": "neutral", "displayName": "Working White", "canonical": "#fff", "tonalRamp": ["oklch(15% 0 0)", "oklch(26% 0 0)", "oklch(38% 0 0)", "oklch(49% 0 0)", "oklch(61% 0 0)", "oklch(72% 0 0)", "oklch(84% 0 0)", "oklch(95% 0 0)"] },
+      "text": { "role": "neutral", "displayName": "Navy Text", "canonical": "#172b48", "tonalRamp": ["oklch(15% .018 258)", "oklch(26% .035 258)", "oklch(38% .055 258)", "oklch(49% .07 258)", "oklch(61% .07 258)", "oklch(72% .055 258)", "oklch(84% .035 258)", "oklch(95% .01 258)"] },
+      "muted": { "role": "neutral", "displayName": "Slate Supporting Text", "canonical": "#52647c", "tonalRamp": ["oklch(15% .01 257)", "oklch(26% .02 257)", "oklch(38% .035 257)", "oklch(49% .045 257)", "oklch(61% .045 257)", "oklch(72% .035 257)", "oklch(84% .02 257)", "oklch(95% .007 257)"] },
+      "line": { "role": "neutral", "displayName": "Cool Divider", "canonical": "#ccd7e5", "tonalRamp": ["oklch(15% .006 256)", "oklch(26% .012 256)", "oklch(38% .02 256)", "oklch(49% .025 256)", "oklch(61% .025 256)", "oklch(72% .02 256)", "oklch(84% .012 256)", "oklch(95% .005 256)"] },
+      "accent": { "role": "primary", "displayName": "Action Cobalt", "canonical": "#245bca", "tonalRamp": ["oklch(15% .035 262)", "oklch(26% .075 262)", "oklch(38% .13 262)", "oklch(49% .18 262)", "oklch(61% .18 262)", "oklch(72% .13 262)", "oklch(84% .075 262)", "oklch(95% .02 262)"] },
+      "on-accent": { "role": "neutral", "displayName": "Cobalt Foreground", "canonical": "#fff", "tonalRamp": ["oklch(15% 0 0)", "oklch(26% 0 0)", "oklch(38% 0 0)", "oklch(49% 0 0)", "oklch(61% 0 0)", "oklch(72% 0 0)", "oklch(84% 0 0)", "oklch(95% 0 0)"] },
+      "soft": { "role": "neutral", "displayName": "Soft Selection Blue", "canonical": "#e9effc", "tonalRamp": ["oklch(15% .01 263)", "oklch(26% .02 263)", "oklch(38% .035 263)", "oklch(49% .045 263)", "oklch(61% .045 263)", "oklch(72% .035 263)", "oklch(84% .02 263)", "oklch(95% .01 263)"] },
+      "warn-bg": { "role": "neutral", "displayName": "Warning Paper", "canonical": "#fff4d7", "tonalRamp": ["oklch(15% .012 85)", "oklch(26% .025 85)", "oklch(38% .04 85)", "oklch(49% .055 85)", "oklch(61% .055 85)", "oklch(72% .04 85)", "oklch(84% .025 85)", "oklch(95% .012 85)"] },
+      "warn-text": { "role": "neutral", "displayName": "Warning Ochre", "canonical": "#6f4d08", "tonalRamp": ["oklch(15% .02 78)", "oklch(26% .04 78)", "oklch(38% .065 78)", "oklch(49% .085 78)", "oklch(61% .085 78)", "oklch(72% .065 78)", "oklch(84% .04 78)", "oklch(95% .01 78)"] },
+      "err-bg": { "role": "neutral", "displayName": "Error Paper", "canonical": "#fff0ef", "tonalRamp": ["oklch(15% .008 25)", "oklch(26% .015 25)", "oklch(38% .025 25)", "oklch(49% .035 25)", "oklch(61% .035 25)", "oklch(72% .025 25)", "oklch(84% .015 25)", "oklch(95% .008 25)"] },
+      "err-text": { "role": "neutral", "displayName": "Error Brick", "canonical": "#a32626", "tonalRamp": ["oklch(15% .025 25)", "oklch(26% .05 25)", "oklch(38% .10 25)", "oklch(49% .15 25)", "oklch(61% .15 25)", "oklch(72% .10 25)", "oklch(84% .05 25)", "oklch(95% .015 25)"] },
+      "dark-bg": { "role": "neutral", "displayName": "Night Canvas", "canonical": "#111b2b", "tonalRamp": ["oklch(15% .01 260)", "oklch(26% .025 260)", "oklch(38% .04 260)", "oklch(49% .05 260)", "oklch(61% .05 260)", "oklch(72% .04 260)", "oklch(84% .025 260)", "oklch(95% .008 260)"] },
+      "dark-surface": { "role": "neutral", "displayName": "Night Working Surface", "canonical": "#1a283e", "tonalRamp": ["oklch(15% .012 259)", "oklch(26% .03 259)", "oklch(38% .045 259)", "oklch(49% .055 259)", "oklch(61% .055 259)", "oklch(72% .045 259)", "oklch(84% .03 259)", "oklch(95% .008 259)"] },
+      "dark-text": { "role": "neutral", "displayName": "Night Main Text", "canonical": "#e7eefb", "tonalRamp": ["oklch(15% .008 263)", "oklch(26% .015 263)", "oklch(38% .025 263)", "oklch(49% .035 263)", "oklch(61% .035 263)", "oklch(72% .025 263)", "oklch(84% .015 263)", "oklch(95% .008 263)"] },
+      "dark-muted": { "role": "neutral", "displayName": "Night Supporting Text", "canonical": "#b4c3db", "tonalRamp": ["oklch(15% .01 260)", "oklch(26% .02 260)", "oklch(38% .035 260)", "oklch(49% .045 260)", "oklch(61% .045 260)", "oklch(72% .035 260)", "oklch(84% .02 260)", "oklch(95% .008 260)"] },
+      "dark-line": { "role": "neutral", "displayName": "Night Divider", "canonical": "#425574", "tonalRamp": ["oklch(15% .012 261)", "oklch(26% .025 261)", "oklch(38% .04 261)", "oklch(49% .055 261)", "oklch(61% .055 261)", "oklch(72% .04 261)", "oklch(84% .025 261)", "oklch(95% .008 261)"] },
+      "dark-accent": { "role": "primary", "displayName": "Night Action Blue", "canonical": "#a8c8ff", "tonalRamp": ["oklch(15% .02 260)", "oklch(26% .04 260)", "oklch(38% .07 260)", "oklch(49% .10 260)", "oklch(61% .10 260)", "oklch(72% .07 260)", "oklch(84% .04 260)", "oklch(95% .012 260)"] },
+      "dark-on-accent": { "role": "neutral", "displayName": "Night Action Ink", "canonical": "#102341", "tonalRamp": ["oklch(15% .018 260)", "oklch(26% .035 260)", "oklch(38% .055 260)", "oklch(49% .075 260)", "oklch(61% .075 260)", "oklch(72% .055 260)", "oklch(84% .035 260)", "oklch(95% .01 260)"] },
+      "dark-soft": { "role": "neutral", "displayName": "Night Selection Surface", "canonical": "#233b60", "tonalRamp": ["oklch(15% .02 259)", "oklch(26% .04 259)", "oklch(38% .065 259)", "oklch(49% .08 259)", "oklch(61% .08 259)", "oklch(72% .065 259)", "oklch(84% .04 259)", "oklch(95% .01 259)"] },
+      "dark-warn-bg": { "role": "neutral", "displayName": "Night Warning Surface", "canonical": "#392d16", "tonalRamp": ["oklch(15% .012 80)", "oklch(26% .025 80)", "oklch(38% .04 80)", "oklch(49% .05 80)", "oklch(61% .05 80)", "oklch(72% .04 80)", "oklch(84% .025 80)", "oklch(95% .01 80)"] },
+      "dark-warn-text": { "role": "neutral", "displayName": "Night Warning Gold", "canonical": "#f2d38b", "tonalRamp": ["oklch(15% .015 85)", "oklch(26% .035 85)", "oklch(38% .065 85)", "oklch(49% .09 85)", "oklch(61% .09 85)", "oklch(72% .065 85)", "oklch(84% .035 85)", "oklch(95% .012 85)"] },
+      "dark-err-bg": { "role": "neutral", "displayName": "Night Error Surface", "canonical": "#3b2329", "tonalRamp": ["oklch(15% .01 10)", "oklch(26% .025 10)", "oklch(38% .04 10)", "oklch(49% .05 10)", "oklch(61% .05 10)", "oklch(72% .04 10)", "oklch(84% .025 10)", "oklch(95% .008 10)"] },
+      "dark-err-text": { "role": "neutral", "displayName": "Night Error Coral", "canonical": "#ffb7b2", "tonalRamp": ["oklch(15% .018 25)", "oklch(26% .035 25)", "oklch(38% .065 25)", "oklch(49% .09 25)", "oklch(61% .09 25)", "oklch(72% .065 25)", "oklch(84% .035 25)", "oklch(95% .01 25)"] }
+    },
+    "typographyMeta": {
+      "headline": { "displayName": "Page Heading", "purpose": "Document and settings titles; browser-default bold h1 weight." },
+      "welcome": { "displayName": "Welcome Heading", "purpose": "Final cascade value at mobile and desktop widths." },
+      "title": { "displayName": "Section Heading", "purpose": "Section and dialog h2 headings." },
+      "body": { "displayName": "System Body", "purpose": "One system stack across the web interface." },
+      "button": { "displayName": "Action Label", "purpose": "Standard filled and outlined actions." },
+      "field": { "displayName": "Editable Text", "purpose": "Native input, select and textarea text." },
+      "label": { "displayName": "Field Label", "purpose": "Visible labels above fields." },
+      "helper": { "displayName": "Helper Copy", "purpose": "General small print; component metadata has local overrides." },
+      "nav": { "displayName": "Navigation Label", "purpose": "Bottom destination labels; current destination uses weight 650." }
+    },
+    "shadows": [
+      { "name": "composer", "value": "0 4px 12px #172b4808", "purpose": "Light separation beneath the composer in either theme." },
+      { "name": "dialog", "value": "0 16px 60px #0003", "purpose": "Native modal elevation; backdrop is #101f35a6." }
+    ],
+    "motion": [
+      { "name": "button-state", "value": "background-color 150ms, color 150ms", "purpose": "Only under prefers-reduced-motion:no-preference; default CSS easing." },
+      { "name": "proposal-open", "value": "180ms cubic-bezier(.16,1,.3,1)", "purpose": "Only under prefers-reduced-motion:no-preference; clip-path inset(0 0 12% 0) to inset(0)." }
+    ],
+    "breakpoints": [
+      { "name": "compact-max", "value": "359px" },
+      { "name": "desktop-min", "value": "760px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button", "kind": "button", "refersTo": "button-primary",
+      "description": "Primary commit or save action; minimum height 46px.",
+      "html": "<button type=\"button\" class=\"ds-primary\">Lưu cài đặt</button>",
+      "css": ".ds-primary{font:600 .94rem/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px;border:1px solid var(--accent,#245bca);background:var(--accent,#245bca);color:var(--on-accent,#fff);padding:11px 17px;border-radius:11px;text-align:center;cursor:pointer;touch-action:manipulation}.ds-primary:focus-visible{outline:3px solid var(--accent,#245bca);outline-offset:3px}.ds-primary:disabled{opacity:.55;cursor:wait}@media(hover:hover){.ds-primary:hover{filter:brightness(.94)}}@media(prefers-reduced-motion:no-preference){.ds-primary{transition:background-color 150ms,color 150ms}}"
+    },
+    {
+      "name": "Secondary Button", "kind": "button", "refersTo": "button-secondary",
+      "description": "Outlined alternative such as model listing or sharing.",
+      "html": "<button type=\"button\" class=\"ds-secondary\">Lấy danh sách model</button>",
+      "css": ".ds-secondary{font:600 .94rem/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px;border:1px solid var(--line,#ccd7e5);background:var(--surface,#fff);color:var(--accent,#245bca);padding:11px 17px;border-radius:11px;text-align:center;cursor:pointer;touch-action:manipulation}.ds-secondary:focus-visible{outline:3px solid var(--accent,#245bca);outline-offset:3px}.ds-secondary:disabled{opacity:.55;cursor:wait}@media(hover:hover){.ds-secondary:hover{filter:brightness(.94)}}@media(prefers-reduced-motion:no-preference){.ds-secondary{transition:background-color 150ms,color 150ms}}"
+    },
+    {
+      "name": "Danger Button", "kind": "button", "refersTo": "button-danger",
+      "description": "Outlined destructive local-history action; confirmation is application behavior.",
+      "html": "<button type=\"button\" class=\"ds-danger\">Xoá lịch sử lưu trên máy</button>",
+      "css": ".ds-danger{font:600 .94rem/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display:inline-flex;align-items:center;justify-content:center;min-height:46px;border:1px solid var(--line,#ccd7e5);background:var(--surface,#fff);color:var(--err-text,#a32626);padding:11px 17px;border-radius:11px;text-align:center;cursor:pointer;touch-action:manipulation}.ds-danger:focus-visible{outline:3px solid var(--accent,#245bca);outline-offset:3px}.ds-danger:disabled{opacity:.55;cursor:wait}@media(hover:hover){.ds-danger:hover{filter:brightness(.94)}}@media(prefers-reduced-motion:no-preference){.ds-danger{transition:background-color 150ms,color 150ms}}"
+    },
+    {
+      "name": "Text Action", "kind": "button", "refersTo": "button-text",
+      "description": "Low-emphasis action; the inline welcome variant separately removes its minimum target.",
+      "html": "<button type=\"button\" class=\"ds-text\">Sao chép</button>",
+      "css": ".ds-text{font:400 .88rem/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;border:0;background:none;padding:10px 4px;min-height:44px;color:var(--accent,#245bca);text-align:left;cursor:pointer;touch-action:manipulation}.ds-text:focus-visible{outline:3px solid var(--accent,#245bca);outline-offset:3px}.ds-text:disabled{opacity:.55;cursor:wait}@media(hover:hover){.ds-text:hover{background:var(--soft,#e9effc)}}@media(prefers-reduced-motion:no-preference){.ds-text{transition:background-color 150ms,color 150ms}}"
+    },
+    {
+      "name": "Labelled Field", "kind": "input", "refersTo": "field",
+      "description": "Native text field with a visible label and 16px editable text.",
+      "html": "<label class=\"ds-field-label\"><span>Model chat</span><input class=\"ds-field\" placeholder=\"Tên model do nhà cung cấp hỗ trợ\" autocomplete=\"off\"></label>",
+      "css": ".ds-field-label{display:block;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--text,#172b48)}.ds-field-label>span{display:block;margin-bottom:7px;font-size:.88rem;font-weight:550;line-height:1.5}.ds-field{display:block;width:100%;max-width:100%;font:400 1rem/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--surface,#fff);color:var(--text,#172b48);border:1px solid var(--line,#ccd7e5);border-radius:10px;min-height:46px;padding:11px 13px;caret-color:var(--accent,#245bca)}.ds-field:focus-visible{outline:3px solid var(--accent,#245bca);outline-offset:3px}"
+    },
+    {
+      "name": "Bottom Navigation", "kind": "nav", "refersTo": "nav-active",
+      "description": "Three page-navigation buttons; fixed placement belongs to the app shell, not this preview.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Điều hướng chính\"><button type=\"button\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M14 2H5v20h14V7Zm0 0v5h5M8 12h8M8 16h6\"/></svg><span>Tài liệu</span></button><button type=\"button\" aria-current=\"page\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M21 11a8 8 0 0 1-8 8H7l-5 3 2-6a8 8 0 1 1 17-5Z\"/></svg><span>Trợ lý</span></button><button type=\"button\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm0-6v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M5 19l2-2M17 7l2-2\"/></svg><span>Cài đặt</span></button></nav>",
+      "css": ".ds-nav{display:flex;justify-content:center;gap:8px;background:var(--surface,#fff);border-top:1px solid var(--line,#ccd7e5);padding:6px max(12px,env(safe-area-inset-right,0px)) calc(7px + env(safe-area-inset-bottom,0px))}.ds-nav button{font:400 .75rem/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;flex:1;max-width:210px;min-height:55px;border:0;background:none;color:var(--muted,#52647c);border-radius:12px;cursor:pointer;touch-action:manipulation}.ds-nav button[aria-current=page]{color:var(--accent,#245bca);background:var(--soft,#e9effc);font-weight:650}.ds-nav svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.ds-nav button:focus-visible{outline:3px solid var(--accent,#245bca);outline-offset:3px}@media(hover:hover){.ds-nav button:hover{color:var(--accent,#245bca)}}@media(min-width:760px){.ds-nav{gap:20px}}@media(prefers-reduced-motion:no-preference){.ds-nav button{transition:background-color 150ms,color 150ms}}"
+    },
+    {
+      "name": "Document Block", "kind": "card", "refersTo": "document-block",
+      "description": "Extracted text unit with selection and accessible edit action; not a page-layout preview.",
+      "html": "<article class=\"ds-block\"><div class=\"ds-block-head\"><label class=\"ds-block-check\"><input type=\"checkbox\" aria-label=\"Chọn Đoạn 1\"><strong>Đoạn 1</strong></label><button type=\"button\" class=\"ds-block-edit\" aria-label=\"Sửa Đoạn 1\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m4 16 12-12 4 4L8 20H4Z\"/></svg></button></div><p class=\"ds-block-text\">Nội dung tài liệu được trích xuất.</p></article>",
+      "css": ".ds-block{font:400 16px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--surface,#fff);color:var(--text,#172b48);border:1px solid var(--line,#ccd7e5);border-radius:10px;margin:0 0 12px;padding:12px 14px}.ds-block-head{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}.ds-block-check{display:flex;align-items:center;gap:10px;min-height:44px;cursor:pointer;flex:1}.ds-block-check input{width:21px;height:21px;min-width:21px;margin:0;accent-color:var(--accent,#245bca)}.ds-block-check strong{font-size:.84rem;font-weight:650;overflow-wrap:anywhere}.ds-block-edit{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:0;background:transparent;color:var(--muted,#52647c);border-radius:10px;padding:10px;cursor:pointer}.ds-block-edit svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.ds-block-text{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.92rem;margin:2px 0 10px}.ds-block input:focus-visible,.ds-block-edit:focus-visible{outline:3px solid var(--accent,#245bca);outline-offset:3px}@media(hover:hover){.ds-block-edit:hover{background:var(--soft,#e9effc)}}@media(prefers-reduced-motion:no-preference){.ds-block-edit{transition:background-color 150ms,color 150ms}}"
+    },
+    {
+      "name": "Before / After Review", "kind": "custom", "refersTo": "proposal",
+      "description": "Visual excerpt of a validated proposal; the app adds summary, storage notice and apply/discard controls.",
+      "html": "<section class=\"ds-proposal\" aria-label=\"Duyệt thay đổi AI\"><h2>Duyệt thay đổi</h2><div class=\"ds-change\"><strong>Đoạn 1</strong><div class=\"ds-diff ds-before\"><span>Trước</span><pre>Nội dung trước sửa.</pre></div><div class=\"ds-diff ds-after\"><span>Sau</span><pre>Nội dung được đề xuất.</pre></div></div></section>",
+      "css": ".ds-proposal{font:400 16px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--surface,#fff);color:var(--text,#172b48);border:1px solid var(--line,#ccd7e5);border-radius:14px;padding:20px;margin-bottom:22px}.ds-proposal h2{font-size:1.3rem;line-height:1.3;margin:0 0 14px}.ds-change{padding:15px 0;border-top:1px solid var(--line,#ccd7e5)}.ds-change>strong{font-size:.88rem;font-weight:650}.ds-diff{border-radius:8px;padding:11px;margin-top:9px;font-size:.9rem}.ds-diff>span{display:block;font-size:.72rem;font-weight:650;margin-bottom:4px}.ds-diff pre{font-family:inherit;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}.ds-before{background:var(--bg,#f4f6fa);color:var(--muted,#52647c)}.ds-after{background:var(--soft,#e9effc);color:var(--text,#172b48)}@media(prefers-reduced-motion:no-preference){.ds-proposal{animation:ds-proposal-open 180ms cubic-bezier(.16,1,.3,1)}@keyframes ds-proposal-open{from{clip-path:inset(0 0 12% 0)}to{clip-path:inset(0)}}}"
+    },
+    {
+      "name": "Chat Composer", "kind": "custom", "refersTo": "composer",
+      "description": "Attachment, plain-text prompt and send control. The preview does not send requests.",
+      "html": "<div class=\"ds-composer\"><button type=\"button\" class=\"ds-attach\" aria-label=\"Đính kèm tài liệu\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 12 6-6a4 4 0 0 1 6 6l-9 9a6 6 0 0 1-8-8l9-9m-6 11 9-9\"/></svg></button><textarea rows=\"2\" maxlength=\"12000\" aria-label=\"Yêu cầu cho trợ lý\" placeholder=\"Nhắn cho Agenty…\"></textarea><button type=\"button\" class=\"ds-send\" aria-label=\"Gửi tin nhắn\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m12 20 0-16m-6 6 6-6 6 6\"/></svg></button></div>",
+      "css": ".ds-composer{display:flex;align-items:flex-end;gap:3px;background:var(--surface,#fff);color:var(--text,#172b48);border:1px solid var(--line,#ccd7e5);border-radius:18px;padding:7px;box-shadow:0 4px 12px #172b4808;margin-bottom:10px}.ds-composer textarea{display:block;width:100%;max-width:100%;font:400 1rem/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:transparent;color:var(--text,#172b48);border:0;box-shadow:none;border-radius:8px;padding:9px 4px;min-height:66px;max-height:200px;resize:none;caret-color:var(--accent,#245bca)}.ds-attach{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:0;background:transparent;color:var(--muted,#52647c);border-radius:10px;padding:10px;flex-shrink:0;cursor:pointer}.ds-send{display:flex;align-items:center;justify-content:center;width:44px;height:44px;flex-shrink:0;background:var(--accent,#245bca);color:var(--on-accent,#fff);border:0;border-radius:12px;cursor:pointer}.ds-composer svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.ds-composer button:focus-visible,.ds-composer textarea:focus-visible{outline:3px solid var(--accent,#245bca);outline-offset:3px}.ds-composer button:disabled{opacity:.55;cursor:wait}@media(hover:hover){.ds-attach:hover{background:var(--soft,#e9effc)}}@media(prefers-reduced-motion:no-preference){.ds-composer button{transition:background-color 150ms,color 150ms}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Review Desk",
+    "overview": "Agenty is a restrained office workspace: a steady navy header, cool pale canvas, readable system type and cobalt actions. Its visual hierarchy keeps conversation, document content and explicit review legible without decorative imagery. This name describes the existing implementation, not a newly selected brand direction.\n\nThis is a web PWA, not a native iOS interface. Native HTML controls, Vietnamese labels, line icons and a persistent bottom navigation form the working vocabulary. The system makes permissions and revision state visible: an attached file, its destination, a consent control and labelled before/after content remain distinct from an ordinary chat reply.",
+    "keyCharacteristics": [
+      "Cool neutral surfaces, a constant navy header and theme-aware action colors.",
+      "System typography and single-column, touch-oriented controls.",
+      "Visible document scope, consent and before/after review.",
+      "Flat working surfaces with restrained composer and modal depth."
+    ],
+    "rules": [
+      { "name": "The Theme Pair Rule", "body": "Change surface and foreground together through the existing CSS variables; the header and fixed file-type badge colors remain as implemented.", "section": "colors" }
+    ],
+    "dos": [
+      "Do use paired theme variables for foregrounds, surfaces and selected actions.",
+      "Do preserve system fonts, native form behavior, visible labels and the existing focus outline.",
+      "Do keep the safe-area-aware shell and labelled three-destination navigation.",
+      "Do retain explicit document scope, endpoint consent and labelled Trước/Sau review before applying AI edits.",
+      "Do distinguish an in-memory revision from a downloaded or shared file.",
+      "Do keep unsupported-feature and provider/CORS warnings visible where the relevant action occurs."
+    ],
+    "donts": [
+      "Don't present this web PWA as SwiftUI, an IPA, App Store distribution or Keychain-backed storage.",
+      "Don't persist API credentials or imply that optional local chat history is separately encrypted.",
+      "Don't claim universal 44px coverage, real-iPhone validation or keyboard-safe behavior from these screenshots.",
+      "Don't turn plain assistant replies into automatically applied edits or executable model output.",
+      "Don't claim OCR, original PDF text replacement, Excel-equivalent recalculation or faithful Office layout rendering.",
+      "Don't treat the API-ready header label or a successful model listing as proof that chat works."
+    ]
+  }
+}
