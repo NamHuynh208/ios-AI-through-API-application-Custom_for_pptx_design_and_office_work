@@ -6,5 +6,6 @@
 - [x] Kiểm thử 15 unit + 22 browser (Chromium/WebKit); production offline PDF tiếng Việt và 3 viewport đã kiểm tra.
 - [x] Build/upload Cloudflare Pages project `agenty-mobile`; `agenty.namprojects.site` Active, SSL enabled; xác nhận HTTPS/manifest/service worker/security headers.
 - [x] Đặt tên dự án tiếng Anh là **AI Office Assistant for iPhone**; giữ app brand Agenty Mobile.
+- [x] Khởi tạo Git và push source lên GitHub repository yêu cầu; branch `main`, commit `df9501b`; xác minh remote hash và working tree sạch.
 - [ ] Người dùng tự mở Safari iPhone, thêm vào Màn hình chính, kiểm tra API provider thật (CORS) và lưu tệp vào Files.
 - [ ] Chưa thử trên iPhone vật lý, chưa gửi request bằng API key thật, chưa xuất App Store/IPA.
